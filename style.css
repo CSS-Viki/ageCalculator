@@ -8,7 +8,6 @@
 }
 
 .container {
-  position: relative;
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #4203a9, #90bafc);
@@ -16,20 +15,6 @@
   padding: 10px;
 }
 
-.intro-info img {
-  position: absolute;
-  bottom: 80px;
-  left: 150px;
-  width: 200px;
-  z-index: 99;
-}
-.details {
-  font-family: "Caveat", cursive;
-  position: absolute;
-  left: 300px;
-  bottom: 90px;
-  font-size: 2rem;
-}
 .calculator {
   width: 100%;
   max-width: 600px;
@@ -90,12 +75,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 .display-details {
-  position: absolute;
   border-bottom: 1px solid #ccc;
   max-width: 600px;
   width: 100%;
-  right: 20px;
-  bottom: 235px;
+  margin-left: 100px;
   font-size: 1.5rem;
 }
 
@@ -114,8 +97,8 @@ strong {
     align-items: center;
   }
   .display-details {
-    left: 10px;
-    margin-bottom: -120px;
     width: 90%;
+    margin-left: 0;
+    margin-top: -100px;
   }
 }
